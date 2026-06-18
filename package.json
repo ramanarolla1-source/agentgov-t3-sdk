@@ -1,1 +1,15 @@
-
+{
+  "name": "agentgov-t3-sdk",
+  "version": "1.0.0",
+  "description": "Enterprise AI governance platform using Terminal 3's Agent Dev Kit to provide verifiable identity, delegated authority, and auditable actions.",
+  "main": "src/agent.js",
+  "scripts": {
+    "start": "node src/agent.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@terminal3/sdk": "^1.0.0"
+  },
+  "author": "AgentGov Team",
+  "license": "MIT"
+}
