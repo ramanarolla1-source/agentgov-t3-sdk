@@ -60,3 +60,10 @@ Audit & Feedback
 We believe that the future of enterprise AI is defined by trustworthy infrastructure. We have systematically documented our onboarding experience to help the Terminal 3 team mature their SDK. See TECHNICAL_AUDIT.md for full details on reported issues and suggestions.
 
 Trust Every Agent. Verify Every Action.
+
+Future Integration Roadmap: Local-First Sovereignty
+To evolve AgentGov into a fully air-gapped governance solution, we are integrating the QVAC SDK (v0.13.0) as our primary local inference provider. By leveraging the @qvac/ai-sdk-provider, we can move both AI inference and policy evaluation off the cloud and directly onto local hardware. This ensures that:
+
+Zero-Cloud Compliance: Governance decisions are calculated and audited entirely offline, meeting the strictest security requirements for high-stakes trade and procurement.
+
+Unified Desktop Deployment: Using QVAC’s new Electron plugin, we are architecting AgentGov as a portable, single-command desktop application, allowing enterprise teams to deploy secure, governed agents across isolated local networks.
